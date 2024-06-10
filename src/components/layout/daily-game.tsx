@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { GameProps } from "@/utils/types/game";
-import { BsArrowRightCircle } from "react-icons/bs";
+import { ArrowRightCircleIcon } from "lucide-react";
 
 const getDailyGame = async () => {
   try {
@@ -26,12 +26,12 @@ const DailyGame = async () => {
           <div className="absolute bottom-0 z-20 flex flex-col items-start justify-center gap-2 p-3">
             <div className="flex items-center gap-2">
               <p className="text-2xl font-bold text-white">{dailyGame.title}</p>
-              <BsArrowRightCircle
+              <ArrowRightCircleIcon
                 size={24}
                 className="text-white transition-all group-hover:translate-x-2"
               />
             </div>
-            <span className="line-clamp-2 text-sm text-white md:line-clamp-3">
+            <span className="line-clamp-3 w-full max-w-2xl text-sm text-white lg:line-clamp-4">
               {dailyGame.description}
             </span>
           </div>

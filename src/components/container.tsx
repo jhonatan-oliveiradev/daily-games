@@ -1,3 +1,5 @@
+import { cn } from "@/lib/utils";
+
 interface ContainerProps {
   children: React.ReactNode;
   className?: string;
@@ -5,7 +7,7 @@ interface ContainerProps {
 
 const Container = ({ children, className }: ContainerProps) => {
   return (
-    <div className={`mx-auto max-w-screen-xl px-2 ${className}`}>
+    <div className={cn("mx-auto max-w-screen-xl px-2", className)}>
       {children}
     </div>
   );

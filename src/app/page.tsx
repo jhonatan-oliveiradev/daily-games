@@ -1,5 +1,6 @@
 import Container from "@/components/container";
 import DailyGame from "@/components/layout/daily-game";
+import Games from "@/components/layout/games";
 import Search from "@/components/layout/search";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
 
         <DailyGame />
         <Search />
+        <Games />
       </Container>
     </main>
   );
