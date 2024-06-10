@@ -1,5 +1,6 @@
 import Container from "@/components/container";
 import DailyGame from "@/components/layout/daily-game";
+import Search from "@/components/layout/search";
 
 export default function Home() {
   return (
@@ -9,10 +10,11 @@ export default function Home() {
           Que tal começar uma nova aventura?
         </h1>
         <p className="mb-5 text-sm text-muted-foreground">
-          Separamos um jogo exclusivamente para você
+          Separamos um novo jogo exclusivamente para você
         </p>
 
         <DailyGame />
+        <Search />
       </Container>
     </main>
   );
