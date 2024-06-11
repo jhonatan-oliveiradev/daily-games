@@ -29,6 +29,7 @@ const Footer = () => {
             <Link
               className="transition-all group-hover:text-primary group-hover:underline"
               href="https://github.com/jhonatan-oliveiradev"
+              target="_blank"
             >
               Jhonatan Oliveira
             </Link>
