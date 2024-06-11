@@ -5,7 +5,7 @@ import Search from "@/components/layout/search";
 
 export default function Home() {
   return (
-    <main className="w-full">
+    <section className="w-full">
       <Container>
         <h1 className="mt-8 text-xl font-bold">
           Que tal começar uma nova aventura?
@@ -18,6 +18,6 @@ export default function Home() {
         <Search />
         <Games />
       </Container>
-    </main>
+    </section>
   );
 }

@@ -19,7 +19,7 @@ const Games = async () => {
   const data: GameProps[] = await getGamesData();
 
   return (
-    <Container>
+    <Container className="mb-8">
       <h2 className="mt-8 text-xl font-bold">Jogos para conhecer</h2>
       <p className="mb-5 text-sm text-muted-foreground">
         Explore novos mundos com os jogos abaixo.
