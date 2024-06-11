@@ -26,7 +26,7 @@ export async function generateMetadata({
       .then((response) => response.json())
       .catch(() => {
         return {
-          title: "Daily Games - Sua plataforma de jogos 🔥",
+          title: "Detalhes do jogo - Daily Games",
         };
       });
 
@@ -50,7 +50,7 @@ export async function generateMetadata({
     };
   } catch (error) {
     return {
-      title: "Daily Games - Sua plataforma de jogos 🔥",
+      title: "Detalhes do jogo - Daily Games",
     };
   }
 }

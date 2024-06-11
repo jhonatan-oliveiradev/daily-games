@@ -17,7 +17,7 @@ const Header = () => {
             Jogos
           </Link>
           <Link
-            href="/about"
+            href="/profile"
             className="text-sm font-bold transition-all hover:text-primary"
           >
             Perfil
