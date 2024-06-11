@@ -31,7 +31,7 @@ const GameCard = ({ data }: GameCardProps) => {
             <ArrowRightCircleIcon size={16} />
           </div>
           <div className="flex w-full items-center justify-between text-xs text-muted-foreground">
-            <p>Lançamento: {data.release}</p>
+            <p>Ano: {data.release}</p>
             <p>Gênero: {data.categories[0]}</p>
           </div>
         </CardFooter>

@@ -9,8 +9,23 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Daily Games",
-  description: "Sua plataforma de jogos 🔥",
+  title: "Daily Games - Sua plataforma de jogos 🔥",
+  description:
+    "Encontre e organize seus jogos favoritos, compartilhe com seus amigos e explore um mundo de aventuras e emoções!",
+  keywords: ["games", "jogos", "videogames", "steam"],
+  openGraph: {
+    images: [`${process.env.PROJECT_URL}/preview.png`],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+    },
+  },
 };
 
 export default function RootLayout({
